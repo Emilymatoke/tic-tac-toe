@@ -1,0 +1,14 @@
+Pseudocode-Detailed yet readable of what a program or algorithm dhould do.
+
+CODE BLOCKS - functions(modularity), loops, conditionals
+
+
+1. A function to create a board(definition of rows and columns)
+2.Variable state to track current player
+3. Function to check rows and columns
+ - check for empty cells
+ -track player's input
+ -checking for input combinations.
+4. A function that checks for the winner, checkWin()
+  -check if combinations have the winning pattern
+  -can contain matches of winning patterns i.e XXX
